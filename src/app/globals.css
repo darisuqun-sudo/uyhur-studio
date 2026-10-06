@@ -24,13 +24,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'UKIJ Ekran';
+  src: local('UKIJ Ekran'),
+       local('UKIJEkran'),
+       local('UKIJ Ekran Regular'),
+       url('/fonts/UKIJEkran.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UKIJ Ekran';
+  src: local('UKIJ Ekran Bold'),
+       local('UKIJEkranBold'),
+       local('UKIJ Ekran'),
+       url('/fonts/UKIJEkran.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Uyghur Arabic typography enhancement */
-[dir="rtl"] {
-  font-family: 'Microsoft Uighur', 'UKIJ Tuz', 'Noto Naskh Arabic', 'Alkatip Basma Tom', system-ui, -apple-system, sans-serif;
+[dir="rtl"],
+.font-uyghur,
+body.font-uyghur {
+  font-family: 'UKIJ Ekran', 'UKIJEkran', 'UKIJ Tuz', 'Microsoft Uighur', 'Noto Naskh Arabic', system-ui, -apple-system, sans-serif;
   letter-spacing: 0px;
 }
 
-[dir="ltr"] {
+[dir="ltr"],
+.font-sans,
+body.font-sans {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 

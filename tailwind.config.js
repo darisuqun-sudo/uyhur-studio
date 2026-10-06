@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        uyghur: ['UKIJ Tuz', 'Noto Naskh Arabic', 'Alkatip Basma Tom', 'sans-serif'],
+        uyghur: ['"UKIJ Ekran"', 'UKIJEkran', '"UKIJ Tuz"', '"Microsoft Uighur"', '"Noto Naskh Arabic"', 'sans-serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
