@@ -107,11 +107,6 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-grid-slate-100 dark:bg-grid-slate-800/20 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] pointer-events-none" />
 
         <div className="relative max-w-3xl mx-auto space-y-6">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 dark:bg-blue-400/10 text-blue-600 dark:text-blue-400 text-xs font-semibold border border-blue-500/20 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>OpenRouter & Google Gemini بىرلەشتۈرۈلگەن سۇپا</span>
-          </div>
-
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
             {t.heroTitle}
           </h1>
