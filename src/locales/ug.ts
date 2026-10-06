@@ -14,6 +14,11 @@ export const ug = {
   navChat: "ئاقىل پاراڭ",
   navHistory: "تارىخ",
   navSettings: "تەڭشەك",
+  navTools: "قوراللار مەركىزى",
+  categoryVisual: "كۆرۈنۈش ۋە سەنئەت",
+  categoryLanguage: "تىل ۋە يېزىقچىلىق",
+  categoryVoice: "ئاۋاز ۋە نۇتۇق",
+  categoryChat: "ئەقلىي پاراڭ",
   
   // Model Selector & Settings
   modelSelectorTitle: "سۈنئىي ئىدراك مودېلىنى تاللاش",

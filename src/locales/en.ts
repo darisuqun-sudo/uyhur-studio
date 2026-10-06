@@ -14,6 +14,11 @@ export const en = {
   navChat: "AI Chatbot",
   navHistory: "History",
   navSettings: "Settings",
+  navTools: "AI Tools",
+  categoryVisual: "Visual & Media",
+  categoryLanguage: "Language & Writing",
+  categoryVoice: "Voice & Audio",
+  categoryChat: "AI Assistant",
   
   // Model Selector & Settings
   modelSelectorTitle: "Select AI Model",

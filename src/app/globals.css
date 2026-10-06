@@ -10,8 +10,8 @@
 }
 
 .dark {
-  --background: #020617;
-  --foreground: #f8fafc;
+  --background: #030712;
+  --foreground: #f9fafb;
 }
 
 body {
@@ -20,24 +20,40 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Uyghur Arabic typography enhancement */
 [dir="rtl"] {
-  font-family: 'UKIJ Tuz', 'Noto Naskh Arabic', 'Alkatip Basma Tom', system-ui, sans-serif;
+  font-family: 'Microsoft Uighur', 'UKIJ Tuz', 'Noto Naskh Arabic', 'Alkatip Basma Tom', system-ui, -apple-system, sans-serif;
   letter-spacing: 0px;
-  line-height: 1.8;
 }
 
 [dir="ltr"] {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* Smooth transitions */
-* {
-  transition-property: background-color, border-color, color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+/* Glassmorphism and ambient glow utilities */
+.glass-nav {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-dropdown {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5), 0 0 20px 0 rgba(59, 130, 246, 0.08);
+}
+
+.glass-dropdown-light {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15);
 }
 
 /* Custom scrollbars */
@@ -49,9 +65,9 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.3);
-  border-radius: 3px;
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.5);
+  background: rgba(148, 163, 184, 0.45);
 }
