@@ -107,6 +107,13 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-grid-slate-100 dark:bg-grid-slate-800/15 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] pointer-events-none" />
 
         <div className="relative max-w-3xl mx-auto space-y-6">
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-blue-500/10 dark:bg-blue-900/30 border border-blue-500/25 text-blue-600 dark:text-blue-400 text-xs font-semibold shadow-sm backdrop-blur-sm">
+            <div className="w-5 h-5 rounded-md overflow-hidden ring-1 ring-blue-500/30 flex-shrink-0">
+              <img src="/logo.png" alt="ئاقىللار مۇنبىرى" className="w-full h-full object-cover" />
+            </div>
+            <span>{t.brandTitle} — {t.brandSubtitle}</span>
+          </div>
+
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
             {t.heroTitle}
           </h1>

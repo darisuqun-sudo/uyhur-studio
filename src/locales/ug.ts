@@ -1,7 +1,7 @@
 export const ug = {
   // Navigation & General
-  brandTitle: "ئاقىل سەھنە",
-  brandSubtitle: "ئۇيغۇرچە ۋە كۆپ تىللىق سۈنئىي ئىدراك سۇپىسى",
+  brandTitle: "ئاقىللار مۇنبىرى",
+  brandSubtitle: "ئىزدەن — ئۇيغۇرچە ۋە كۆپ تىللىق سۈنئىي ئىدراك سۇپىسى",
   navHome: "باش بەت",
   navImage: "رەسىم ھاسىللاش",
   navTranslate: "تەرجىمە قىلىش",

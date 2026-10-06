@@ -1,7 +1,7 @@
 export const en = {
   // Navigation & General
-  brandTitle: "Aqil Hub",
-  brandSubtitle: "Uyghur & Multilingual AI Creative Platform",
+  brandTitle: "Aqillar Munbiri",
+  brandSubtitle: "Izden — Uyghur & Multilingual AI Platform",
   navHome: "Home",
   navImage: "Image Studio",
   navTranslate: "Smart Translate",

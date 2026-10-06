@@ -15,13 +15,19 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://uyhur-studio.vercel.app'),
   title: {
-    default: 'ئاقىل سەھنە — سۈنئىي ئىدراك سۇپىسى (Aqil Hub)',
-    template: '%s | ئاقىل سەھنە (Aqil Hub)',
+    default: 'ئاقىللار مۇنبىرى — ئىزدەن سۈنئىي ئىدراك سۇپىسى',
+    template: '%s | ئاقىللار مۇنبىرى (Izden AI)',
   },
   description:
-    'ئۇيغۇرچە ۋە كۆپ تىللىق زامانىۋى سۈنئىي ئىدراك سۇپىسى: ئەقلىي تەرجىمە، رەسىم ھاسىللاش، ئاۋاز ئوقۇش (TTS)، سۆزدىن تېكىستكە (STT)، ھۆججەت تونۇش (OCR)، ئەقلىي يېزىقچىلىق، سېتىش ماركېتىنگى ۋە ئادەمسىز كىنولۇق مەھسۇلات ئىلانلىرى.',
+    'ئاقىللار مۇنبىرى (ئىزدەن سۈنئىي ئىدراك سۇپىسى) — ئۇيغۇرچە ۋە كۆپ تىللىق ئەقلىي ئىقتىدارلار: كەسپىي تەرجىمە، سۈپەتلىك رەسىم ئىجادىيىتى، ئاۋاز ئوقۇش (TTS)، سۆزدىن تېكىستكە (STT)، ھۆججەت تونۇش (OCR) ۋە ئەقلىي يېزىقچىلىق.',
   keywords: [
+    'ئاقىللار مۇنبىرى',
+    'ئىزدەن',
+    'ئىزدەن سۈنئىي ئىدراك',
+    'Aqillar Munbiri',
+    'Izden AI',
     'ئۇيغۇرچە سۈنئىي ئىدراك',
     'Uyghur AI',
     'OpenRouter',
@@ -29,25 +35,29 @@ export const metadata: Metadata = {
     'AI Translation',
     'Uyghur OCR',
     'Text to Speech',
-    'Aqil Hub',
-    'ئاقىل سەھنە',
   ],
-  authors: [{ name: 'Aqil AI Hub Team' }],
-  creator: 'Aqil Hub',
+  authors: [{ name: 'ئاقىللار مۇنبىرى ئەترىتى' }],
+  creator: 'ئاقىللار مۇنبىرى',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
-    title: 'ئاقىل سەھنە — سۈنئىي ئىدراك سۇپىسى (Aqil Hub)',
+    title: 'ئاقىللار مۇنبىرى — ئىزدەن سۈنئىي ئىدراك سۇپىسى',
     description:
-      'OpenRouter ۋە Google Gemini 3.8 Flash بىرلەشتۈرۈلگەن كەسپىي ئۇيغۇرچە ۋە كۆپ تىللىق سۈنئىي ئىدراك ئىجادىيەت سۇپىسى.',
-    url: 'https://aqil-hub.com',
-    siteName: 'Aqil Hub',
+      'OpenRouter ۋە Google Gemini 3.8 Flash بىرلەشتۈرۈلگەن كەسپىي ئۇيغۇرچە ۋە كۆپ تىللىق ئەقلىي ئىقتىدار مۇنبىرى.',
+    url: 'https://uyhur-studio.vercel.app',
+    siteName: 'ئاقىللار مۇنبىرى',
     locale: 'ug_CN',
     type: 'website',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'ئاقىللار مۇنبىرى لوگوسى' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ئاقىل سەھنە — سۈنئىي ئىدراك سۇپىسى (Aqil Hub)',
+    title: 'ئاقىللار مۇنبىرى — ئىزدەن سۈنئىي ئىدراك سۇپىسى',
     description:
-      'OpenRouter ۋە Google Gemini 3.8 Flash بىرلەشتۈرۈلگەن كەسپىي ئۇيغۇرچە ۋە كۆپ تىللىق سۈنئىي ئىدراك ئىجادىيەت سۇپىسى.',
+      'OpenRouter ۋە Google Gemini 3.8 Flash بىرلەشتۈرۈلگەن كەسپىي ئۇيغۇرچە ۋە كۆپ تىللىق ئەقلىي ئىقتىدار مۇنبىرى.',
+    images: ['/logo.png'],
   },
   robots: {
     index: true,

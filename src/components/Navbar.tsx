@@ -162,9 +162,13 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           
           {/* 1. Logo & Brand */}
-          <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 flex items-center justify-center text-white shadow-md shadow-indigo-500/20 group-hover:scale-105 transition transform ring-1 ring-white/20">
-              <Sparkles className="w-5 h-5 animate-pulse" />
+          <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
+            <div className="relative w-11 h-11 rounded-2xl overflow-hidden shadow-lg shadow-indigo-500/20 group-hover:scale-105 group-hover:shadow-indigo-500/30 transition-all transform ring-1 ring-slate-200/50 dark:ring-slate-700/60 bg-slate-900 flex-shrink-0">
+              <img
+                src="/logo.png"
+                alt="ئاقىللار مۇنبىرى"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <div className="flex items-center gap-1.5">
@@ -175,7 +179,7 @@ export const Navbar: React.FC = () => {
                   AI
                 </span>
               </div>
-              <span className="hidden sm:block text-[11px] text-slate-400 dark:text-slate-500 leading-none">
+              <span className="hidden sm:block text-[11px] text-slate-500 dark:text-slate-400 leading-none mt-0.5">
                 {t.brandSubtitle}
               </span>
             </div>
