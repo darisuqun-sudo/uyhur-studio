@@ -52,7 +52,7 @@ export async function callAIModel(payload: AIRequestPayload) {
     // Map to valid Google API model endpoints
     let actualGeminiModel = rawModel;
     if (actualGeminiModel.includes('3.8-flash') || actualGeminiModel.includes('flash')) {
-      actualGeminiModel = 'gemini-2.5-flash';
+      actualGeminiModel = 'gemini-3.8-flash';
     } else if (actualGeminiModel.includes('pro')) {
       actualGeminiModel = 'gemini-2.5-pro';
     }

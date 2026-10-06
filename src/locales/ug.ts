@@ -23,7 +23,7 @@ export const ug = {
   activeModel: "نۆۋەتتىكى مودېل",
   changeModel: "مودېلنى ئالماشتۇرۇش",
   customModelId: "ئىختىيارىي مودېل كودى (Custom Model ID)",
-  customModelPlaceholder: "مەسىلەن: google/gemini-2.5-flash ياكى meta-llama/llama-3.3-70b-instruct",
+  customModelPlaceholder: "مەسىلەن: google/gemini-3.8-flash ياكى meta-llama/llama-3.3-70b-instruct",
   saveSettings: "تەڭشەكلەرنى ساقلاش",
   settingsSaved: "تەڭشەكلەر مۇۋەپپەقىيەتلىك ساقلاندى!",
   apiKeyNotice: "ئاچقۇچلىرىڭىز پەقەت ئۆز تور كۆرگۈچىڭىزدە بىخەتەر ساقلىنىدۇ، ھېچقانداق يات مۇلازىمېتىرغا يۈكلەنمەيدۇ.",
